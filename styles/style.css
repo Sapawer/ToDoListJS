@@ -1,27 +1,29 @@
 body{
     display: flex;
     justify-content: center;
+    
 }
 
 .container{
     width: 400px;
     height: 700px;
     display:block;
+    
    
 }
 .header{
     width: 100%;
     height: 200px;
-    background-color: #A4C639;
-    border-radius: 200px 200px 0px 0px;
+    background-image: url("/img/mountain.jpg");
+    
 }
 .body{
     width: 100%;
     height: 450px;
     background-color: #A4C639;
     overflow: hidden;
-    overflow-y:scroll;
-    border-radius: 0 0 200px 200px;
+    overflow-y:visible;
+    
 }
 
 
@@ -57,7 +59,13 @@ body{
     height: 45px;
     width: 340px;
     border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-display: bold;
+    font-size: 40px;
+    
 }
+
 #stack{
     
     margin: 0px;
