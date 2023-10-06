@@ -14,8 +14,8 @@ body{
 .header{
     width: 100%;
     height: 200px;
-    background-image: url("/img/mountain.jpg");
-    
+    background-color: #A4C639;
+    border-radius: 200px 200px 0px 0px;
 }
 .body{
     width: 100%;
@@ -59,17 +59,11 @@ body{
     height: 45px;
     width: 340px;
     border-radius: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-    font-display: bold;
-    font-size: 40px;
-    
 }
 
 #stack{
-    
-    margin: 0px;
-    padding:5px;
+    margin: 2px;
+    padding:0;
     border: 0;
 }
 li{
@@ -79,4 +73,9 @@ li{
     margin:5px;
     border-radius: 5px 5px 5px 5px ;
     
+}
+li:hover{
+    background-color: aqua;
+    transform: matrix(3odeg,4);
+
 }
