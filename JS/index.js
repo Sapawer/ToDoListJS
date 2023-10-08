@@ -2,12 +2,13 @@
 var toDo = document.querySelector("input");
 const list = document.getElementById("list");
 const todaysDate = document.getElementById("date");
-
+const dayName =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+const monthName = ["January","February","March","April","May","June","July","August","September","October","November","December"]
 var currentDate = new Date();
-var dateToday = currentDate.getDate();
+var dateToday = currentDate.getDay();
 var monthToday = currentDate.getMonth();
 var yearToday = currentDate.getFullYear();
-todaysDate.innerHTML = `${dateToday}  , ${monthToday} , ${yearToday}`;
+todaysDate.innerHTML = `${dayName[dateToday]}  , ${monthName[monthToday]} , ${yearToday}`;
 
 function addToDo(toDo){
 const text = `<li class="item">
