@@ -4,41 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+    <link rel="stylesheet" href="/styles/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-
     <div class="container">
         <div class="header">
-            <div class="icon1">
-                <i class="fa fa-times fa-5x" aria-hidden="true"></i>           
-            </div>
-            <div class="icon2">
-                <i class="fa fa-times fa-5x" aria-hidden="true"></i>
-            </div>
+            <i class="fas fa-undo"></i>
+            <div id="date"></div>
         </div>
-        <div class="inputBar">
-            <div>
-                <input type="text" class="input" id="input" >    
-            </div>
-            <div id="addTodo">
-                <i class="fa fa-arrow-circle-down fa-3x" aria-hidden="true"></i>
-            </div>
-
+        <div class="list"></div>
+        
+        <div class="add-Item">
+            <i>icon</i>
+            <input type="text" id="input" placehholder="Add To Do">
         </div>
-        <div class="body">
-          <ul id="stack">
-            
-            
-
-          </ul>
-
-        </div>    
-                
 
     </div>
-    <script src ="JS/index.js"></script>
+    
 </body>
 </html>
