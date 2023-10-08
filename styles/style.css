@@ -55,6 +55,7 @@ input{
     place-items:center start;
 }
 .text{
+    width: 360px;
     margin:0 10px 0 10px ;
     font-size: 35px;
 }
@@ -62,4 +63,18 @@ input{
     padding:0;
     width: 100%;
     margin:0;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    
+}
+#list::-webkit-scrollbar {
+    display: none;
+}
+#date{
+    width: 200px;
+    height: 50px;
+    font-size: 2rem;
+    margin-top:110px;
+    margin-left: 15px;
+    
 }
