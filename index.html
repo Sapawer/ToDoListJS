@@ -4,20 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/styles/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="/styles/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <i class="fas fa-undo"></i>
+            <i class="fa fa-refresh fa-2x"></i>
             <div id="date"></div>
         </div>
-        <div class="list"></div>
+        <div class="content">
+            <ul id="list">
+                 <li class="item">
+                      <i class="fa fa-circle-thin fa-2x complete"></i>
+                      <p class="text" >Grow a beautiful plant.</p>
+                      <i class="fa fa-trash-o fa-2x delete"></i>
+                </li>
+                <li class="item">
+                    <i class="fa fa-circle-thin fa-2x complete"></i>
+                    <p class="text" >Grow a beautiful plant.</p>
+                    <i class="fa fa-trash-o fa-2x delete"></i>
+              </li>
+            </ul>
+        </div>
         
         <div class="add-Item">
-            <i>icon</i>
-            <input type="text" id="input" placehholder="Add To Do">
+            <i class="fa fa-plus fa-3x"></i>
+            <input type="text" id="input" placeholder="Add To Do">
         </div>
 
     </div>
